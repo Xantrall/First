@@ -1,0 +1,103 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: black;
+  }
+  .navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+  }
+  .navbar-menu li {
+    display: inline-block;
+  }
+  .navbar-menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .navbar-warp {
+    display: flex;
+    flex-flow: row nowrap;
+    
+  }
+  .kont {
+
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    background-color: darkblue;
+  }
+.nov {
+
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    background-color: darkblue;
+  }
+
+.nas {
+
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    background-color: darkblue;
+  
+  }
+ .glav {
+
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    background-color: darkblue;
+  }
+
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar-brand:hover {
+    color:red
+}
+
+h2 {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: darkblue;
+    color: white;
+
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+    color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+body {
+    background-image: url('a.jpg');
+}
